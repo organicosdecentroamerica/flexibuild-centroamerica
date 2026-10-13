@@ -162,3 +162,51 @@ img, video, iframe { max-width: 100%; }
   .contact-actions .button { width:100%; box-sizing:border-box; }
   .contact-detail a { overflow-wrap:anywhere; }
 }
+
+
+/* Contraste accesible en la columna izquierda de Contacto: mantener el formulario blanco y aclarar todo el texto sobre el fondo azul. */
+.contact-section {
+  background: linear-gradient(120deg, #102a43 0%, #183e5a 100%);
+}
+.contact-section .contact-copy h2,
+.contact-section .contact-copy h3,
+.contact-section .contact-copy p,
+.contact-section .contact-copy li {
+  color: #f7fafc;
+}
+.contact-section .contact-copy .eyebrow,
+.contact-section .contact-copy .contact-detail span {
+  color: #ffb18c;
+}
+.contact-section .contact-copy .contact-detail p,
+.contact-section .contact-copy .contact-detail a {
+  color: #ffffff;
+}
+.contact-section .contact-copy .contact-detail a {
+  text-decoration: underline;
+  text-decoration-color: rgba(255,255,255,.55);
+  text-underline-offset: 3px;
+}
+.contact-section .contact-copy .contact-detail a:hover {
+  color: #ffcfb8;
+}
+.contact-section .contact-copy .contact-actions .button-secondary {
+  color: #102a43;
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.contact-section .contact-copy .contact-actions .button-primary {
+  color: #ffffff;
+  background: #c9531c;
+}
+.contact-section .contact-form {
+  color: #172b3a;
+  background: #ffffff;
+  border-color: #dbe3e8;
+}
+.contact-section .contact-form label {
+  color: #102a43;
+}
+.contact-section .contact-form .form-note {
+  color: #526574;
+}
