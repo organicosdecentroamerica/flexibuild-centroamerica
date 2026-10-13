@@ -1,8 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title">
-<title id="title">Símbolo de FlexiBuild Centroamérica</title>
-<path d="M80 5 148 44 148 116 80 155 12 116 12 44Z" fill="#102a43"/>
-<path d="M80 5 148 44 80 83 12 44Z" fill="#244f73"/>
-<path d="M12 44 80 83 80 155 12 116Z" fill="#2d78ae"/>
-<path d="M148 44 80 83 80 155 148 116Z" fill="#4d9bd1"/>
-<path d="M48 50 110 50 110 69 68 69 68 86 101 86 101 105 68 105 68 132 48 132Z" fill="#fff"/>
+<title id="title">Símbolo oficial de FlexiBuild Centroamérica</title>
+<path fill="#0b3470" d="M80 4 147 43 147 78 126 90 126 55 80 28 34 55 34 105 55 117 55 142 13 118 13 43Z"/>
+<path fill="#4a9bd8" d="M147 82 147 117 80 156 47 137 68 125 80 132 126 105 126 94Z"/>
+<path fill="#0b3470" d="M56 64 103 64 103 84 76 84 76 95 98 95 98 114 76 114 76 129 56 117Z"/>
+<path fill="#4a9bd8" d="M80 84 124 59 124 83 80 109 80 132 59 120 59 97Z"/>
 </svg>
