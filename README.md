@@ -33,3 +33,6 @@ Crear un proyecto nuevo en Cloudflare Pages conectado a este repositorio. **No c
 
 ## Limitaciones conocidas
 Las imágenes siguen enlazadas al CDN público de GoDaddy para conservar los recursos originales durante la vista previa; por ello la vista previa depende de que esos recursos continúen disponibles. No se ha modificado el sitio de GoDaddy. El formulario no envía correo; abre WhatsApp. SEO técnico no garantiza posiciones específicas en buscadores.
+
+## Publicación
+El workflow `.github/workflows/deploy-pages.yml` se ejecuta al actualizar `main` y publica el sitio en GitHub Pages cuando Pages está habilitado en la configuración del repositorio.
