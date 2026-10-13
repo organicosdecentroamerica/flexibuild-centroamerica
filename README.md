@@ -5,7 +5,7 @@ Sitio HTML/CSS/JavaScript sin framework ni dependencias de compilación.
 ## Páginas
 - `index.html`: inicio y soluciones.
 - `icf.html`: Better Block ICF®.
-- `steel-framing.html`: Steel Framing.
+- `steel-framing.html`: Sistema Constructivo Modular Steel Framing (perfiles tubulares de acero; uniones abulonadas, soldadas o híbridas).
 - `galerias.html`: galería y 14 videos originales.
 - `nosotros.html`: información institucional.
 - `contacto.html`: contacto y formulario que prepara un mensaje de WhatsApp.
@@ -20,8 +20,8 @@ Crear un proyecto nuevo en Cloudflare Pages conectado a este repositorio. **No c
 - Build command: vacío (sitio estático)
 - Build output directory: `/` (si el panel rechaza la raíz, probar `.`)
 - Variables de entorno: ninguna necesaria
-- Revisar mediante el subdominio `*.pages.dev` que genere Cloudflare.
-- No modificar GoDaddy, `flexibuild.site` ni los DNS.
+- Revisar mediante el subdominio `*.pages.dev` que genere Cloudflare Pages. La URL `*.workers.dev` corresponde al despliegue actual de Workers y no sustituye esta revisión.
+- Dominio principal previsto: `www.flexibuild.site`. No modificar GoDaddy, `flexibuild.site` ni los DNS sin aprobación final.
 
 ## Lista de revisión previa al lanzamiento
 1. Probar navegación y enlaces en escritorio y móvil.
