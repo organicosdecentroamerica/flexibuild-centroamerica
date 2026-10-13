@@ -146,3 +146,19 @@ img, video, iframe { max-width: 100%; }
   .page-hero-image { margin-top: 22px; }
   .page-hero-image img { aspect-ratio: 4 / 3; max-height: 300px; }
 }
+
+/* Contacto visible y accionable en escritorio y móvil */
+.contact-actions { display:flex; flex-wrap:wrap; gap:12px; margin:22px 0 26px; }
+.contact-actions .button { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:13px 18px; text-align:center; text-decoration:none; font-weight:800; border-radius:5px; }
+.contact-actions .button-primary { background:var(--orange); color:#fff; }
+.contact-actions .button-secondary { border:1px solid var(--navy); color:var(--navy); background:#fff; }
+.contact-actions .button:hover { filter:brightness(.96); }
+.contact-form { min-width:0; }
+.contact-form input, .contact-form select, .contact-form textarea { box-sizing:border-box; }
+@media(max-width:760px) {
+  .contact-section { grid-template-columns:minmax(0,1fr); gap:28px; padding:48px 20px; }
+  .contact-form { padding:22px 18px; }
+  .contact-actions { display:grid; grid-template-columns:minmax(0,1fr); }
+  .contact-actions .button { width:100%; box-sizing:border-box; }
+  .contact-detail a { overflow-wrap:anywhere; }
+}
