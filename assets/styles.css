@@ -137,3 +137,12 @@ img, video, iframe { max-width: 100%; }
   .mobile-business-art span { font-size: 1.2rem; }
   .gallery-grid, .cards, .system-grid, .video-grid, .faq-list { min-width: 0; }
 }
+
+
+/* Imagen principal contextual en las páginas de soluciones */
+.page-hero-image { width: min(100%, 1040px); margin: 30px 0 0; }
+.page-hero-image img { display: block; width: 100%; max-height: 370px; aspect-ratio: 16 / 7; object-fit: cover; border-radius: 8px; box-shadow: 0 14px 36px rgba(16,42,67,.12); }
+@media (max-width: 760px) {
+  .page-hero-image { margin-top: 22px; }
+  .page-hero-image img { aspect-ratio: 4 / 3; max-height: 300px; }
+}
