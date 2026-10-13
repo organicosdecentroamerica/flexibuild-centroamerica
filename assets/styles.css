@@ -210,3 +210,29 @@ img, video, iframe { max-width: 100%; }
 .contact-section .contact-form .form-note {
   color: #526574;
 }
+
+
+/* Corrección definitiva: ningún texto heredado en azul oscuro debe perderse sobre el fondo azul de Contacto. */
+.contact-section .contact-copy,
+.contact-section .contact-copy * {
+  color: #f7fafc;
+}
+.contact-section .contact-copy .eyebrow,
+.contact-section .contact-copy .contact-detail > span {
+  color: #ffb18c;
+}
+.contact-section .contact-copy .contact-actions .button-primary {
+  color: #ffffff;
+  background: #c9531c;
+}
+.contact-section .contact-copy .contact-actions .button-secondary {
+  color: #102a43;
+  background: #ffffff;
+  border-color: #ffffff;
+}
+.contact-section .contact-copy a:not(.button) {
+  color: #ffffff;
+}
+.contact-section .contact-copy a:not(.button):hover {
+  color: #ffcfb8;
+}
