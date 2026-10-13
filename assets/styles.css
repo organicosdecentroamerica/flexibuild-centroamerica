@@ -236,3 +236,34 @@ img, video, iframe { max-width: 100%; }
 .contact-section .contact-copy a:not(.button):hover {
   color: #ffcfb8;
 }
+
+
+/* Alto contraste forzado para todos los elementos de la columna de contacto. */
+.contact-section .contact-copy,
+.contact-section .contact-copy h1,
+.contact-section .contact-copy h2,
+.contact-section .contact-copy h3,
+.contact-section .contact-copy p,
+.contact-section .contact-copy li,
+.contact-section .contact-copy strong,
+.contact-section .contact-copy a:not(.button) {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+.contact-section .contact-copy .eyebrow,
+.contact-section .contact-copy .contact-detail > span {
+  color: #ffb18c !important;
+}
+.contact-section .contact-copy .contact-actions .button-primary {
+  color: #ffffff !important;
+  background: #e66b2e !important;
+}
+.contact-section .contact-copy .contact-actions .button-secondary {
+  color: #102a43 !important;
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.contact-section .contact-copy a:not(.button):hover {
+  color: #ffcfb8 !important;
+}
