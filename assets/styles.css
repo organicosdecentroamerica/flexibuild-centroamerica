@@ -95,3 +95,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
  .nav-dropdown[open]>summary:after{content:"−"}
 }
 .video-tile iframe{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:6px;background:#101820}.video-tile h3{margin:14px 0 6px}.video-tile p{margin:0}
+
+/* Descripciones completas dentro de los menús de sistemas */
+.nav-menu-intro{padding:13px 13px 12px;margin:2px 0 7px;border-radius:6px;background:#f2f5f7;border-left:3px solid #e66b2e}
+.nav-menu-intro>strong{display:block;color:#102a43;font-size:.9rem;line-height:1.35}
+.nav-menu-intro p{margin:7px 0 0;color:#455967;font-size:.78rem;font-weight:450;line-height:1.5;white-space:normal}
+.nav-dropdown-menu>a{white-space:normal}
+@media(min-width:761px){.nav-dropdown-menu{min-width:330px;width:min(390px,calc(100vw - 40px))}}
+@media(max-width:760px){.nav-menu-intro p{font-size:.82rem}.nav-dropdown-menu>a{padding:12px 10px}}
