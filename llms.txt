@@ -15,7 +15,8 @@ FlexiBuild Centroamérica integrates construction systems and develops project o
 - Modular offices and commercial modules: https://www.flexibuild.site/oficinas-modulares.html
 - Food trucks, food trailers, kiosks, shops and mobile businesses: https://www.flexibuild.site/negocios-moviles.html
 - Campers and minicampers: https://www.flexibuild.site/campers-minicampers.html
-- Modified containers and vehicles: https://www.flexibuild.site/contenedores-modificados.html
+- Casas contenedor, viviendas con contenedores, oficinas, locales comerciales y bodegas en contenedores modificados: https://www.flexibuild.site/contenedores-modificados.html
+- Transformación de buses, microbuses, mototaxis y otros vehículos: https://www.flexibuild.site/transformacion-contenedores-vehiculos.html
 - Mobile clinics, laboratories and specialized units: https://www.flexibuild.site/clinicas-unidades-moviles.html
 - Special construction projects: https://www.flexibuild.site/proyectos-especiales.html
 
