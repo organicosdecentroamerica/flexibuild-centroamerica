@@ -332,3 +332,31 @@ img, video, iframe { max-width: 100%; }
   .page-hero-image img { max-height: 300px; }
   .mobile-business-art img { max-height: 280px; }
 }
+
+
+/* Ajuste de proporción: usar todo el ancho real del contenedor sin limitar la imagen por su altura. */
+.hero-photo>img,
+.solution-image,
+.gallery-card img,
+.feature-layout img,
+.mobile-business-art img,
+.page-hero-image img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  object-fit: contain !important;
+  object-position: center;
+}
+.hero-photo>img { border-radius: 8px 8px 0 0; }
+.solution-card { min-width: 0; }
+.solution-image { margin: 0; }
+.gallery-card > a { display: block; width: 100%; }
+.gallery-card > a img { width: 100% !important; }
+.mobile-business-art { width: 100%; }
+.mobile-business-art img { width: 100% !important; }
+.page-hero-image { width: 100%; }
+.page-hero-image img { aspect-ratio: auto !important; }
+.feature-layout img { align-self: start; }
