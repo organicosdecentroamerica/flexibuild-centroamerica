@@ -527,3 +527,8 @@ img, video, iframe { max-width: 100%; }
 #redes-sociales .social-links a svg{display:block!important;visibility:visible!important;opacity:1!important;width:27px!important;height:27px!important;max-width:27px!important;flex:0 0 27px!important;overflow:visible;}
 #redes-sociales .oneecard-link{display:inline-flex!important;visibility:visible!important;opacity:1!important;}
 @media(max-width:760px){#redes-sociales.footer-social{align-items:flex-start!important;flex-direction:column!important;gap:14px!important}#redes-sociales .footer-social-heading{align-items:flex-start!important;flex-direction:column!important;gap:12px!important;width:100%}#redes-sociales .social-links{justify-content:flex-start!important;gap:9px!important;flex-wrap:wrap!important}#redes-sociales .social-links a{flex-basis:40px!important;width:40px!important;height:40px!important;min-width:40px!important}#redes-sociales .social-links a svg{width:26px!important;height:26px!important;max-width:26px!important;flex-basis:26px!important}}
+
+
+/* International phone selector on the contact form */
+.contact-form .iti{display:block;width:100%;}
+.contact-form .iti input[type="tel"]{width:100%;box-sizing:border-box;}
