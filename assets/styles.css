@@ -360,3 +360,92 @@ img, video, iframe { max-width: 100%; }
 .page-hero-image { width: 100%; }
 .page-hero-image img { aspect-ratio: auto !important; }
 .feature-layout img { align-self: start; }
+
+
+/* Imágenes adaptadas al ancho de cada bloque, sin recorte ni deformación, en todas las pantallas. */
+.hero-photo { overflow: hidden; }
+.hero-photo > img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+.solution-card { overflow: hidden; min-width: 0; }
+.solution-image {
+  display: block;
+  width: calc(100% + 46px) !important;
+  max-width: none !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  margin: 0 -23px 23px !important;
+  object-fit: contain !important;
+}
+.gallery-card > a { display: block; width: 100%; }
+.gallery-card img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+.feature-layout img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  object-fit: contain !important;
+}
+.mobile-business-art {
+  position: relative;
+  display: block !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.mobile-business-art img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+.mobile-business-art span {
+  position: absolute;
+  left: 18px;
+  bottom: 16px;
+  z-index: 1;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: rgba(16,42,67,.82);
+  color: #fff;
+}
+.page-hero-image img {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+}
+@media(max-width:760px) {
+  .hero-photo > img,
+  .solution-image,
+  .gallery-card img,
+  .feature-layout img,
+  .mobile-business-art img,
+  .page-hero-image img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+  .solution-image {
+    width: calc(100% + 46px) !important;
+  }
+}
