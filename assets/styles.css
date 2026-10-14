@@ -283,3 +283,20 @@ img, video, iframe { max-width: 100%; }
  .mobile-business-art{aspect-ratio:4/3}
  .page-hero-image img{max-height:300px;aspect-ratio:auto}
 }
+
+
+/* Balanced image framing: fill the cards without tiny thumbnails or blank areas */
+.hero-photo>img{display:block;width:100%;height:clamp(250px,28vw,390px);object-fit:cover;object-position:center;background:#e7eef3}
+.solution-image{display:block;width:calc(100% + 46px);height:220px;object-fit:cover;object-position:center;background:#e7eef3}
+.gallery-card img{display:block;width:100%;height:260px;object-fit:cover;object-position:center;background:#e7eef3}
+.feature-layout img{display:block;width:100%;height:100%;min-height:300px;max-height:440px;object-fit:cover;object-position:center;border-radius:10px}
+.mobile-business-art img{object-fit:cover;object-position:center}
+.page-hero-image img{display:block;width:100%;height:clamp(220px,30vw,370px);aspect-ratio:auto;object-fit:cover;object-position:center}
+@media(max-width:760px){
+ .hero-photo>img{height:230px}
+ .solution-image{height:205px}
+ .gallery-card img{height:230px}
+ .feature-layout img{height:auto;min-height:0;max-height:300px}
+ .mobile-business-art{aspect-ratio:4/3}
+ .page-hero-image img{height:240px;aspect-ratio:auto}
+}
