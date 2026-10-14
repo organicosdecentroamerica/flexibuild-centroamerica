@@ -300,3 +300,35 @@ img, video, iframe { max-width: 100%; }
  .mobile-business-art{aspect-ratio:4/3}
  .page-hero-image img{height:240px;aspect-ratio:auto}
 }
+
+
+/* Mostrar cada imagen completa: no recortar ni deformar las imágenes originales. */
+.hero-photo>img,
+.solution-image,
+.gallery-card img,
+.feature-layout img,
+.mobile-business-art img,
+.page-hero-image img {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  max-height: 440px;
+  min-height: 0 !important;
+  object-fit: contain !important;
+  object-position: center;
+  background: transparent;
+}
+.solution-image { max-height: 280px; }
+.gallery-card img { max-height: 320px; }
+.hero-photo>img { max-height: 390px; }
+.page-hero-image img { max-height: 370px; aspect-ratio: auto; }
+.feature-layout img { max-height: 440px; border-radius: 10px; }
+.mobile-business-art img { max-height: 360px; }
+@media(max-width:760px) {
+  .hero-photo>img { max-height: 300px; }
+  .solution-image { max-height: 240px; }
+  .gallery-card img { max-height: 280px; }
+  .feature-layout img { max-height: 300px; }
+  .page-hero-image img { max-height: 300px; }
+  .mobile-business-art img { max-height: 280px; }
+}
