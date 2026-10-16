@@ -8,7 +8,7 @@
 /* Refinamiento visual: elegancia, jerarquía, profundidad y conversión */
 body{line-height:1.7;letter-spacing:.002em}
 .site-header{box-shadow:0 8px 28px rgba(16,42,67,.055);backdrop-filter:saturate(140%) blur(10px)}
-.brand-mark{border-radius:10px;box-shadow:0 8px 18px rgba(230,107,46,.2)}
+.brand-mark{border-radius:0;box-shadow:none;background-image:none!important;background-color:transparent}
 .site-header nav a{font-size:.91rem;font-weight:650;transition:color .2s ease,background .2s ease}
 .site-header nav a:hover{color:var(--orange)}
 .hero{position:relative;isolation:isolate;overflow:hidden;background:radial-gradient(ellipse at 85% 8%,rgba(230,107,46,.12),transparent 32%),linear-gradient(125deg,#f8fafb 0%,#edf3f6 55%,#e2ebf0 100%)}
@@ -585,5 +585,5 @@ img, video, iframe { max-width: 100%; }
 @media(max-width:370px){#redes-sociales .social-links{gap:8px!important}#redes-sociales .social-links a{flex-basis:38px!important;width:38px!important;height:38px!important;min-width:38px!important;padding:5px!important}#redes-sociales .social-links a svg{width:24px!important;height:24px!important;max-width:24px!important;max-height:24px!important;flex-basis:24px!important}}
 
 /* Official brand isotype in header — 2026-10-16 */
-.site-header .brand-mark{display:block;flex:0 0 48px;width:48px;height:48px;max-width:48px;object-fit:contain;object-position:center;border-radius:0;box-shadow:none;background:none;overflow:visible}
-@media(max-width:760px){.site-header .brand-mark{flex-basis:44px;width:44px;height:44px;max-width:44px}}
+.brand-mark{display:block;flex:0 0 48px;width:48px;height:48px;max-width:48px;object-fit:contain;object-position:center;border-radius:0;box-shadow:none;background:none!important;background-image:none!important;overflow:visible}
+@media(max-width:760px){.brand-mark{flex-basis:44px;width:44px;height:44px;max-width:44px}}
