@@ -36,8 +36,19 @@
 .update-card p:not(.update-category){margin:0 0 18px;color:var(--muted);font-size:.91rem}
 .update-card a{margin-top:auto;color:var(--orange);font-weight:800;font-size:.88rem}
 .updates-note{max-width:850px;margin:28px auto 0;padding:18px 20px;border-left:4px solid var(--orange);background:var(--pale);color:var(--muted);font-size:.9rem}
-@media(max-width:900px){.updates-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.updates-grid{grid-template-columns:1fr}.updates-filters{justify-content:flex-start}.updates-filters button{font-size:.8rem;padding:9px 12px}}
+.social-updates{margin-top:54px;padding-top:38px;border-top:1px solid var(--line)}
+.social-updates-intro{max-width:820px;margin:0 auto 28px;color:var(--muted);text-align:center}
+.social-updates-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.social-update-card{display:flex;flex-direction:column;min-width:0;padding:24px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 6px 18px rgba(16,42,67,.045)}
+.social-update-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.social-update-icon{display:flex;align-items:center;justify-content:center;flex:0 0 46px;width:46px;height:46px;border-radius:10px;background:var(--pale);color:var(--navy);font-size:1.05rem;font-weight:900}
+.social-update-card h3{margin:0;color:var(--navy);font-size:1.12rem;line-height:1.3}
+.social-update-card p{margin:0 0 20px;color:var(--muted);font-size:.91rem}
+.social-update-card a{margin-top:auto;align-self:flex-start;color:var(--orange);font-weight:800;font-size:.9rem}
+.social-update-card a:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+@media(max-width:900px){.updates-grid,.social-updates-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.updates-grid,.social-updates-grid{grid-template-columns:1fr}.updates-filters{justify-content:flex-start}.updates-filters button{font-size:.8rem;padding:9px 12px}}
+
 </style>
 </head>
 <body>
@@ -121,6 +132,19 @@
 </article>
 </div>
 <p class="updates-note">Esta primera versión reúne recursos existentes del sitio y videos ya publicados en el canal de FlexiBuild. Las publicaciones sociales nuevas se incorporarán después de verificar los perfiles y enlaces originales, para evitar duplicados y no atribuir a la empresa contenido que no haya sido confirmado.</p>
+
+<section class="section social-updates" id="novedades-redes">
+<div class="section-heading"><p class="eyebrow">Actividad en nuestros canales</p><h2>Novedades en nuestras redes sociales</h2></div>
+<p class="social-updates-intro">Visite nuestros canales oficiales para consultar las publicaciones más recientes, videos, proyectos y actualizaciones de FlexiBuild Centroamérica.</p>
+<div class="social-updates-grid">
+<article class="social-update-card"><div class="social-update-head"><span class="social-update-icon" aria-hidden="true">f</span><h3>Facebook</h3></div><p>Proyectos, novedades comerciales y publicaciones de FlexiBuild Centroamérica.</p><a href="https://www.facebook.com/people/FlexiBuild-Centroam%C3%A9rica/61583447635132/" target="_blank" rel="noopener noreferrer">Ver publicaciones recientes →</a></article>
+<article class="social-update-card"><div class="social-update-head"><span class="social-update-icon" aria-hidden="true">◎</span><h3>Instagram</h3></div><p>Imágenes, videos cortos y aplicaciones de nuestros sistemas y soluciones.</p><a href="https://www.instagram.com/flexibuild_centroamerica/" target="_blank" rel="noopener noreferrer">Ver publicaciones recientes →</a></article>
+<article class="social-update-card"><div class="social-update-head"><span class="social-update-icon" aria-hidden="true">in</span><h3>LinkedIn</h3></div><p>Actualizaciones de la empresa, soluciones constructivas y contenido profesional.</p><a href="https://www.linkedin.com/company/flexibuild-centroamerica" target="_blank" rel="noopener noreferrer">Ver publicaciones recientes →</a></article>
+<article class="social-update-card"><div class="social-update-head"><span class="social-update-icon" aria-hidden="true">▶</span><h3>YouTube</h3></div><p>Videos, demostraciones y contenido audiovisual sobre sistemas y proyectos.</p><a href="https://www.youtube.com/@flexibuildcentroamerica/videos" target="_blank" rel="noopener noreferrer">Ver videos recientes →</a></article>
+<article class="social-update-card"><div class="social-update-head"><span class="social-update-icon" aria-hidden="true">♪</span><h3>TikTok</h3></div><p>Videos breves, aplicaciones, avances y contenido visual de FlexiBuild.</p><a href="https://www.tiktok.com/@flexibuildcentroamerica" target="_blank" rel="noopener noreferrer">Ver videos recientes →</a></article>
+<article class="social-update-card"><div class="social-update-head"><span class="social-update-icon" aria-hidden="true">G</span><h3>Google Business</h3></div><p>Consulte nuestro perfil de empresa y las actualizaciones disponibles en Google.</p><a href="https://share.google/YOmFEcV2D2ZxyWR6A" target="_blank" rel="noopener noreferrer">Ver perfil en Google →</a></article>
+</div>
+</section>
 </section>
 <section class="cta-band"><div><h2>¿Tiene una idea o proyecto en evaluación?</h2><p>Comparta el uso previsto, ubicación y dimensiones aproximadas.</p></div><a class="button button-primary" href="contacto.html">Consultar a FlexiBuild</a></section>
 </main>
