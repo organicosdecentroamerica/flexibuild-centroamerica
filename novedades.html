@@ -25,7 +25,7 @@
 .update-card{display:flex;flex-direction:column;min-width:0;overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 6px 18px rgba(16,42,67,.045)}
 .update-card[hidden]{display:none}
 .update-card-top{display:flex;align-items:center;justify-content:center;min-height:155px;padding:24px;background:linear-gradient(135deg,#102a43,#28536d);color:#fff}
-.update-card-top span{font-size:2.4rem;font-weight:850;letter-spacing:-.04em}
+.update-card-top span{max-width:100%;font-size:clamp(1.2rem,2.4vw,2rem);font-weight:850;letter-spacing:-.04em;line-height:1.15;text-align:center;overflow-wrap:anywhere}
 .update-card:nth-child(2) .update-card-top{background:linear-gradient(135deg,#9b421e,#e66b2e)}
 .update-card:nth-child(3) .update-card-top{background:linear-gradient(135deg,#183e5a,#567c88)}
 .update-card:nth-child(4) .update-card-top{background:linear-gradient(135deg,#344c5d,#102a43)}
