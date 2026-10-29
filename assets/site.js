@@ -24,6 +24,7 @@ if(footer&&!footer.querySelector('#redes-sociales')){
 })();
 /* Carruseles accesibles para las galerías de imágenes del sitio. */
 (()=>{
+  if(window.location.pathname.endsWith('/galerias.html'))return;
   const galleries=[...document.querySelectorAll('.gallery-grid')].filter(g=>g.querySelectorAll(':scope > .gallery-card').length>1);
   if(!galleries.length)return;
 
