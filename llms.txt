@@ -10,14 +10,18 @@ FlexiBuild Centroamérica integrates construction systems and develops project o
 - Sistema Constructivo ICF / Better Block ICF®: insulated concrete formwork for reinforced-concrete walls. FlexiBuild's current commercial representation is for Nicaragua.
 - Sistema Constructivo Modular Steel Framing: modular structures based on tubular steel profiles, using bolted, welded or hybrid connections according to project design. This is distinct from conventional Light Steel Framing using C/U profiles.
 
-## Applications
+## Modular Steel Framing applications
 - Modular houses: https://www.flexibuild.site/casas-modulares.html
 - Modular offices and commercial modules: https://www.flexibuild.site/oficinas-modulares.html
+- Container homes, lodging, Airbnb units, offices, warehouses and commercial spaces: https://www.flexibuild.site/contenedores-modificados.html
+
+## Mobile businesses and units
 - Food trucks, food trailers, kiosks, shops and mobile businesses: https://www.flexibuild.site/negocios-moviles.html
 - Campers and minicampers: https://www.flexibuild.site/campers-minicampers.html
-- Casas contenedor, viviendas con contenedores, oficinas, locales comerciales y bodegas en contenedores modificados: https://www.flexibuild.site/contenedores-modificados.html
-- Transformación de buses, microbuses, mototaxis y otros vehículos: https://www.flexibuild.site/transformacion-contenedores-vehiculos.html
+- Transformation of buses, microbuses, mototaxis and other vehicles: https://www.flexibuild.site/transformacion-contenedores-vehiculos.html
 - Mobile clinics, laboratories and specialized units: https://www.flexibuild.site/clinicas-unidades-moviles.html
+
+## Other applications
 - Special construction projects: https://www.flexibuild.site/proyectos-especiales.html
 
 ## Technical information
