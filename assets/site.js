@@ -146,3 +146,49 @@ if(footer&&!footer.querySelector('#redes-sociales')){
     },6000);
   });
 })();
+
+/* Carruseles manuales para galerías de videos: no cambian de video mientras se reproduce. */
+(()=>{
+  const groups=[...document.querySelectorAll('.video-embed-grid,.video-grid')];
+  groups.forEach(group=>{
+    const slides=[...group.children].filter(item=>item.matches('.video-embed,.video-tile'));
+    if(slides.length<2)return;
+    group.classList.add('video-carousel');
+    group.setAttribute('role','group');
+    group.setAttribute('aria-roledescription','carrusel de videos');
+    group.setAttribute('aria-label','Galería de videos');
+
+    const wrapper=document.createElement('div');
+    wrapper.className='video-carousel-wrapper';
+    group.before(wrapper);
+    wrapper.append(group);
+
+    const controls=document.createElement('div');
+    controls.className='video-carousel-controls';
+    controls.setAttribute('aria-label','Controles de la galería de videos');
+    controls.innerHTML='<button class="video-carousel-prev" type="button" aria-label="Ver video anterior">‹</button><span class="video-carousel-count" aria-live="polite"></span><button class="video-carousel-next" type="button" aria-label="Ver video siguiente">›</button>';
+    wrapper.prepend(controls);
+
+    let activeIndex=0;
+    const counter=controls.querySelector('.video-carousel-count');
+    const setActive=nextIndex=>{
+      activeIndex=(nextIndex+slides.length)%slides.length;
+      slides.forEach((slide,index)=>{
+        const active=index===activeIndex;
+        slide.hidden=!active;
+        slide.classList.toggle('is-active',active);
+        slide.setAttribute('aria-label','Video '+(index+1)+' de '+slides.length);
+        const iframe=slide.querySelector('iframe');
+        if(iframe){
+          if(!iframe.dataset.videoCarouselSrc)iframe.dataset.videoCarouselSrc=iframe.getAttribute('src')||'';
+          const desired=active?iframe.dataset.videoCarouselSrc:'about:blank';
+          if(iframe.getAttribute('src')!==desired)iframe.setAttribute('src',desired);
+        }
+      });
+      counter.textContent=(activeIndex+1)+' / '+slides.length;
+    };
+    controls.querySelector('.video-carousel-prev').addEventListener('click',()=>setActive(activeIndex-1));
+    controls.querySelector('.video-carousel-next').addEventListener('click',()=>setActive(activeIndex+1));
+    setActive(0);
+  });
+})();
