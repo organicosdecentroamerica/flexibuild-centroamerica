@@ -98,7 +98,7 @@ if(footer&&!footer.querySelector('#redes-sociales')){
     controls.className='gallery-carousel-controls';
     controls.setAttribute('aria-label','Controles de la galería');
     controls.innerHTML='<button class="gallery-carousel-prev" type="button" aria-label="Ver imagen anterior">‹</button><span class="gallery-carousel-count" aria-live="polite"></span><button class="gallery-carousel-next" type="button" aria-label="Ver imagen siguiente">›</button><button class="gallery-carousel-toggle" type="button"></button>';
-    wrapper.append(controls);
+    wrapper.prepend(controls);
 
     let index=0,manuallyPaused=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let pointerPaused=false,focusPaused=false;
