@@ -653,3 +653,9 @@ dialog.gallery-lightbox::backdrop{background:rgba(5,14,24,.88)}
 .investment-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
 .investment-callout{margin:22px 0;padding:18px 20px;border-left:4px solid var(--orange);background:#fff;border-radius:0 6px 6px 0;color:var(--muted)}
 @media(max-width:760px){.investment-panel{padding:22px}.investment-metrics{grid-template-columns:1fr}.biomodular-photo>img{height:240px}}
+
+/* Keep biomodular visuals fully visible, including the FlexiBuild logo. */
+.biomodular-photo>img{height:auto;max-height:480px;object-fit:contain;background:#f1f5f9}
+.biomodular-card-visual>img{object-fit:contain;background:#f1f5f9}
+#ose-board .gallery-card img{height:240px;object-fit:contain;background:#f1f5f9}
+@media(max-width:760px){.biomodular-photo>img{max-height:340px}#ose-board .gallery-card img{height:210px}}
