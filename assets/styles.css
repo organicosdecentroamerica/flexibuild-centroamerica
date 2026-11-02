@@ -659,3 +659,5 @@ dialog.gallery-lightbox::backdrop{background:rgba(5,14,24,.88)}
 .biomodular-card-visual>img{object-fit:contain;background:#f1f5f9}
 #ose-board .gallery-card img{height:240px;object-fit:contain;background:#f1f5f9}
 @media(max-width:760px){.biomodular-photo>img{max-height:340px}#ose-board .gallery-card img{height:210px}}
+
+.video-embed video{display:block;width:100%;aspect-ratio:16/9;max-height:720px;object-fit:contain;background:#102a43}
