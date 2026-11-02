@@ -672,3 +672,7 @@ dialog.gallery-lightbox::backdrop{background:rgba(5,14,24,.88)}
 .biomodular-hero-image figcaption{margin-top:8px;color:var(--muted);font-size:.84rem}
 .biomodular-applications-gallery .gallery-card img{height:250px;object-fit:contain;background:#f1f5f9}
 @media(max-width:760px){.page-hero.biomodular-hero{padding:28px 20px}.biomodular-hero-grid{grid-template-columns:1fr}.biomodular-hero-image img{max-height:none}.biomodular-applications-gallery .gallery-card img{height:220px}}
+
+
+/* Panoramic Biomodular hero artwork shown in full in gallery cards */
+.gallery-card.biomodular-feature-card img{height:220px;object-fit:contain;background:#102a43}
