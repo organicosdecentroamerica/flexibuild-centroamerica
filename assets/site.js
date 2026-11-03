@@ -197,3 +197,4 @@ if(footer&&!footer.querySelector('#redes-sociales')){
     setActive(0);
   });
 })();
+// Footer labels follow the page language.
