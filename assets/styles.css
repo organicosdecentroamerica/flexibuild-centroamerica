@@ -678,3 +678,7 @@ dialog.gallery-lightbox::backdrop{background:rgba(5,14,24,.88)}
 .gallery-card.biomodular-feature-card img{height:220px;object-fit:contain;background:#102a43}
 
 .language-switcher{white-space:nowrap;font-size:.78rem;font-weight:800;color:var(--navy)!important;border:1px solid var(--orange);border-radius:4px;padding:6px 9px}.language-switcher:hover{background:var(--orange);color:#fff!important}
+
+
+/* Keep the English entry point secondary on the Spanish homepage */
+.home-language-link{font-size:.68rem;font-weight:600;border-color:transparent;padding:4px 6px;opacity:.72}.home-language-link:hover{background:transparent;color:var(--orange)!important;opacity:1}
