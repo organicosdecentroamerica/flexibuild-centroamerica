@@ -9,9 +9,13 @@ const socialItems=[
 ];
 const buildSocialFooter=()=>{
  const section=document.createElement('div');section.className='footer-social';section.id='redes-sociales';
- section.innerHTML='<div class="footer-social-heading"><h2>Visita nuestras redes sociales</h2><div class="social-links"></div></div><a class="oneecard-link" href="https://oneecard.com/flexibuildcentroamerica" target="_blank" rel="noopener noreferrer"><span class="oneecard-mark" aria-hidden="true">F</span><span><strong>Nuestra tarjeta electrónica</strong><small>OneeCard · FlexiBuild Centroamérica</small></span><span aria-hidden="true">↗</span></a>';
+ const isEnglish=document.documentElement.lang.toLowerCase().startsWith('en');
+ const socialHeading=isEnglish?'Follow FlexiBuild on social media':'Visita nuestras redes sociales';
+ const cardTitle=isEnglish?'Our digital business card':'Nuestra tarjeta electrónica';
+ const cardLabel=isEnglish?'OneeCard · FlexiBuild Central America':'OneeCard · FlexiBuild Centroamérica';
+ section.innerHTML='<div class="footer-social-heading"><h2>'+socialHeading+'</h2><div class="social-links"></div></div><a class="oneecard-link" href="https://oneecard.com/flexibuildcentroamerica" target="_blank" rel="noopener noreferrer"><span class="oneecard-mark" aria-hidden="true">F</span><span><strong>'+cardTitle+'</strong><small>'+cardLabel+'</small></span><span aria-hidden="true">↗</span></a>';
  const links=section.querySelector('.social-links');
- socialItems.forEach(item=>{const a=document.createElement('a');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',item.label+' de FlexiBuild Centroamérica');a.title=item.label;a.innerHTML=item.svg;links.appendChild(a);});
+ socialItems.forEach(item=>{const a=document.createElement('a');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';a.setAttribute('aria-label',item.label+(isEnglish?' for FlexiBuild Central America':' de FlexiBuild Centroamérica'));a.title=item.label;a.innerHTML=item.svg;links.appendChild(a);});
  return section;
 };
 const footer=document.querySelector('footer.footer,footer');
