@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.flexibuild.site/</loc><lastmod>2026-10-28</lastmod></url>
-  <url><loc>https://www.flexibuild.site/icf.html</loc></url>
+  <url><loc>https://www.flexibuild.site/</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://www.flexibuild.site/icf.html</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://www.flexibuild.site/steel-framing.html</loc></url>
   <url><loc>https://www.flexibuild.site/casas-modulares.html</loc></url>
   <url><loc>https://www.flexibuild.site/oficinas-modulares.html</loc></url>
@@ -31,4 +31,6 @@
   <url><loc>https://www.flexibuild.site/en/biomodular-investment-opportunity.html</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://www.flexibuild.site/en/contact.html</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://www.flexibuild.site/en/mobile-businesses-units.html</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://www.flexibuild.site/construccion-nicaragua.html</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https://www.flexibuild.site/en/construction-in-nicaragua.html</loc><lastmod>2026-11-03</lastmod></url>
 </urlset>
