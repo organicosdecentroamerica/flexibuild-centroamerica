@@ -25,7 +25,7 @@ Modular structures based on tubular steel profiles. Connections may be bolted, w
 - English page: https://www.flexibuild.site/en/modular-steel-framing.html
 
 ### Biomodular Intelligent Construction System
-A development-stage proposal involving agricultural-fiber panels, primarily rice straw, digital BIM/CAD design and project-based CNC preparation. It is not to be represented as a fully validated, mass-produced or commercially available system unless that status is independently confirmed.
+A development-stage industrial initiative involving agricultural-fiber panels, primarily rice straw, digital BIM/CAD design and planned CNC preparation of frames and components. Nicaragua is the proposed production hub, with a long-term regional market vision that includes Nicaragua, Costa Rica, El Salvador, Honduras, Guatemala, Panama and Belize. This is a strategic development objective, not a claim of current commercial coverage, operating production, certification or validated performance. The initiative is not to be represented as a fully validated, mass-produced or commercially available system unless that status is independently confirmed.
 - System and development status: https://www.flexibuild.site/biomodular-inteligente.html
 - Gallery and reference material: https://www.flexibuild.site/galeria-biomodular-inteligente.html
 - Proposed investment opportunity: https://www.flexibuild.site/oportunidad-inversion-biomodular.html
@@ -50,9 +50,12 @@ FlexiBuild presents and evaluates modular housing, offices, commercial modules, 
 ## Geographic scope
 - Better Block ICF®: sales and project evaluation throughout Central America, subject to availability, logistics and country-specific requirements.
 - Modular Steel Framing and mobile solutions: FlexiBuild evaluates opportunities in Nicaragua, Costa Rica, Honduras and El Salvador. Confirm the exact service and execution scope for each location.
-- Biomodular: development-stage initiative based in Nicaragua with a proposed regional market. Do not describe it as an operating production plant or an established commercial supply network.
+- Biomodular: development-stage industrial initiative with a proposed production hub in Nicaragua and a regional market vision covering Nicaragua, Costa Rica, El Salvador, Honduras, Guatemala, Panama and Belize. This is a development objective, not a representation of current operating coverage or supply. Do not describe it as an operating production plant or an established commercial supply network.
 - Construction and installation: quoted separately by project, location, technical scope, logistics and applicable local requirements.
 - For international visitors and expatriates: https://www.flexibuild.site/en/for-expats-central-america.html
+
+## Biomodular project and investment positioning
+FlexiBuild is structuring the Biomodular initiative as an integrated industrial-development opportunity, not merely as a standalone panel product. The proposed workstreams include technology and product development, engineering and testing, plant and equipment planning, agricultural raw-material supply, industrial operations, market development and potential housing applications. The project seeks to engage international investors, funds, family offices, industrial groups, technology partners and strategic suppliers. No investment amount, return, production capacity, operating date or certified performance should be stated unless documented and verified. Public communication should convey the ambition and regional vision while clearly distinguishing proposed plans from completed milestones.
 
 ## Technical and editorial resources
 - Modular construction guide for Nicaragua: https://www.flexibuild.site/guia-construccion-modular-nicaragua.html
