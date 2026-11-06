@@ -96,3 +96,8 @@ h3{line-height:1.25}
 @media(max-width:620px){.catalog-hero{margin:.8rem 0 .7rem;padding:1.35rem 1.1rem 1.15rem;border-radius:18px;gap:1.15rem}.catalog-hero h1{font-size:clamp(2.05rem,9vw,3rem);max-width:13ch;margin:.45rem 0 .8rem}.catalog-hero .lead{font-size:1rem;line-height:1.55;margin-bottom:.75rem}.catalog-hero-link{padding:.72rem 1rem;font-size:.92rem}.catalog-hero-proof{margin-top:1rem;font-size:.7rem}.catalog-hero-gallery{min-height:260px;gap:8px}.hero-product{border-radius:12px}.hero-product-main{min-height:260px}.hero-gallery-caption{right:7px;bottom:7px;font-size:.62rem;padding:.35rem .55rem}.catalog-category-strip{justify-content:flex-start;gap:.4rem;padding:.75rem;margin-bottom:1.4rem;border-radius:12px}.catalog-category-strip span{font-size:.69rem;padding:.34rem .58rem}}
 @media(max-width:390px){.catalog-hero-gallery{min-height:225px}.hero-product-main{min-height:225px}.catalog-hero-proof{gap:.45rem}}
 @media(prefers-reduced-motion:reduce){.catalog-hero-link{transition:none}}
+
+/* Approved full-width ICF catalog cover artwork */
+.catalog-cover{margin:1.35rem 0 1.1rem;overflow:hidden;border-radius:20px;box-shadow:0 18px 44px rgba(10,32,51,.14);background:#eef2f5}
+.catalog-cover img{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:cover}
+@media(max-width:620px){.catalog-cover{margin:.8rem 0 .7rem;border-radius:12px}.catalog-cover img{aspect-ratio:1.35/1;object-fit:contain;background:#f4f6f8}}
