@@ -1,5 +1,5 @@
 /* FlexiBuild ICF catalog: balanced desktop layout and compact mobile flow */
-:root{color-scheme:light;--ink:#182735;--muted:#50636d;--brand:#153c52;--accent:#16708a;--line:#d8e0e2;--paper:#fff;--canvas:#f5f7f6;--soft:#eaf1f2}
+:root{color-scheme:light;--ink:#182735;--muted:#50636d;--brand:#10283f;--accent:#e66b2e;--line:#d7e0e7;--paper:#fff;--canvas:#f3f6f8;--soft:#fff0e8}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--canvas);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -49,24 +49,12 @@ h3{line-height:1.25}
 @media(max-width:390px){.components{grid-template-columns:1fr}.component img{aspect-ratio:1.45}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
-/* Navegación adaptable de los catálogos: menú hamburguesa coherente con el sitio */
-.menu-toggle{display:none;border:1px solid var(--line);background:#fff;padding:.55rem .8rem;border-radius:5px;color:var(--brand);font:inherit;font-weight:700;cursor:pointer}
-@media(max-width:760px){
- .top{flex-direction:row;align-items:center;flex-wrap:wrap;gap:.75rem}
- .brand{white-space:normal;flex:1 1 auto;min-width:0}
- .menu-toggle{display:block;flex:0 0 auto}
- .top .nav{display:none;flex:1 0 100%;width:100%;align-items:stretch;flex-direction:column;justify-content:flex-start;gap:.2rem;padding:.5rem 0 .25rem}
- .top .nav.open{display:flex}
- .top .nav a{display:block;width:100%;padding:.65rem .5rem}
- .top .nav .lang{align-self:flex-start;width:auto;padding:.35rem .85rem}
-}
 
-/* Unified catalog navigation: visible hamburger on every viewport */
-.top{position:relative;flex-direction:row!important;align-items:center!important;flex-wrap:wrap;gap:.75rem}
-.brand{flex:1 1 auto;min-width:0;white-space:normal}
-.menu-toggle{display:flex!important;flex:0 0 44px;flex-direction:column;justify-content:center;align-items:center;gap:4px;width:44px;height:40px;padding:8px;border:1px solid var(--line);border-radius:5px;background:#fff;cursor:pointer}
-.menu-toggle span{display:block;width:20px;height:2px;border-radius:2px;background:var(--brand)}
-.top .nav{display:none!important;flex:1 0 100%;width:100%;align-items:stretch;flex-direction:column;justify-content:flex-start;gap:0;padding:.5rem 0 .25rem}
-.top .nav.open{display:flex!important}
-.top .nav a{display:block;width:100%;padding:.62rem .5rem;border-top:1px solid var(--line)}
-.top .nav .lang{align-self:flex-start;width:auto;margin-top:.35rem;border:1px solid #afc2ca;border-radius:999px;padding:.35rem .85rem}
+/* Preserve FlexiBuild's global brand header while styling catalog content */
+.site-header .brand{display:flex;align-items:center;gap:12px;font-size:1.1rem;font-weight:750;line-height:1.2;color:var(--navy);text-decoration:none;white-space:normal;letter-spacing:normal}
+.site-header .brand b{color:var(--orange)}
+.site-header .brand small{display:block;margin-top:5px;font-size:.58rem;font-weight:600;letter-spacing:.035em;color:var(--muted)}
+.site-header .brand-mark{display:block;flex:0 0 48px;width:48px;height:48px;object-fit:contain}
+.footer-social{grid-column:1/-1}
+.footer-social .social-links a{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px}
+.footer-social .social-links svg{display:block;width:24px;height:24px;max-width:24px;max-height:24px}
