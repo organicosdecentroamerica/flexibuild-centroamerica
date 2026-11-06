@@ -60,3 +60,13 @@ h3{line-height:1.25}
  .top .nav a{display:block;width:100%;padding:.65rem .5rem}
  .top .nav .lang{align-self:flex-start;width:auto;padding:.35rem .85rem}
 }
+
+/* Unified catalog navigation: visible hamburger on every viewport */
+.top{position:relative;flex-direction:row!important;align-items:center!important;flex-wrap:wrap;gap:.75rem}
+.brand{flex:1 1 auto;min-width:0;white-space:normal}
+.menu-toggle{display:flex!important;flex:0 0 44px;flex-direction:column;justify-content:center;align-items:center;gap:4px;width:44px;height:40px;padding:8px;border:1px solid var(--line);border-radius:5px;background:#fff;cursor:pointer}
+.menu-toggle span{display:block;width:20px;height:2px;border-radius:2px;background:var(--brand)}
+.top .nav{display:none!important;flex:1 0 100%;width:100%;align-items:stretch;flex-direction:column;justify-content:flex-start;gap:0;padding:.5rem 0 .25rem}
+.top .nav.open{display:flex!important}
+.top .nav a{display:block;width:100%;padding:.62rem .5rem;border-top:1px solid var(--line)}
+.top .nav .lang{align-self:flex-start;width:auto;margin-top:.35rem;border:1px solid #afc2ca;border-radius:999px;padding:.35rem .85rem}
