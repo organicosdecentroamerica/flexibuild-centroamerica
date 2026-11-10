@@ -690,3 +690,10 @@ dialog.gallery-lightbox::backdrop{background:rgba(5,14,24,.88)}
 /* Home system cards: consistent imagery for ICF, Steel Framing and Biomodular */
 .system-card .home-system-image{display:block;width:calc(100% + 56px);height:190px;margin:-32px -28px 22px;object-fit:cover;object-position:center;background:#e8eef2}
 @media(max-width:760px){.system-card .home-system-image{height:190px}}
+
+
+/* Imágenes de los sistemas en portada: encuadre completo y responsive */
+.home-systems .system-card img.home-system-image{display:block;width:100%;height:clamp(220px,28vw,360px);margin:0 0 22px;padding:8px;object-fit:contain;object-position:center;background:#f4f7f9;border-radius:4px}
+@media(max-width:1050px){.home-systems .system-card img.home-system-image{height:clamp(230px,34vw,330px)}}
+@media(max-width:760px){.home-systems .system-card img.home-system-image{width:100%;height:clamp(230px,68vw,340px);margin:0 0 20px;padding:6px;object-fit:contain}}
+@media(max-width:380px){.home-systems .system-card img.home-system-image{height:230px}}
