@@ -688,5 +688,5 @@ dialog.gallery-lightbox::backdrop{background:rgba(5,14,24,.88)}
 
 
 /* Home system cards: consistent imagery for ICF, Steel Framing and Biomodular */
-.home-systems .home-system-image{display:block;width:calc(100% + 56px);height:190px;margin:-32px -28px 22px;object-fit:cover;object-position:center;background:#e8eef2}
-@media(max-width:760px){.home-systems .home-system-image{height:190px}}
+.system-card .home-system-image{display:block;width:calc(100% + 56px);height:190px;margin:-32px -28px 22px;object-fit:cover;object-position:center;background:#e8eef2}
+@media(max-width:760px){.system-card .home-system-image{height:190px}}
