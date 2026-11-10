@@ -697,3 +697,6 @@ dialog.gallery-lightbox::backdrop{background:rgba(5,14,24,.88)}
 @media(max-width:1050px){.home-systems .system-card img.home-system-image{height:clamp(230px,34vw,330px)}}
 @media(max-width:760px){.home-systems .system-card img.home-system-image{width:100%;height:clamp(230px,68vw,340px);margin:0 0 20px;padding:6px;object-fit:contain}}
 @media(max-width:380px){.home-systems .system-card img.home-system-image{height:230px}}
+
+/* Tarjetas de sistemas en móvil: imagen a todo el ancho, proporción natural y sin recorte */
+@media(max-width:760px){.home-systems .system-card img.home-system-image{display:block;width:calc(100% + 40px);max-width:none;height:auto;max-height:none;aspect-ratio:auto;margin:-24px -20px 20px;padding:0;object-fit:contain;object-position:center;background:#f4f7f9;border-radius:0}}
