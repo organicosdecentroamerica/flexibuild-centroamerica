@@ -1,3 +1,45 @@
+/* GA4: medición de interacciones comerciales. No genera page_view para evitar duplicados con GTM. */
+(()=> {
+  const measurementId = 'G-BEVKBV6H9N';
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function(){window.dataLayer.push(arguments);};
+  if (!document.querySelector('script[data-flexibuild-ga4]')) {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+    script.dataset.flexibuildGa4 = 'true';
+    document.head.appendChild(script);
+    window.gtag('js', new Date());
+    window.gtag('config', measurementId, {send_page_view: false});
+  }
+  const send = (eventName, params = {}) => {
+    window.gtag('event', eventName, {
+      page_location: window.location.href,
+      page_title: document.title,
+      ...params
+    });
+  };
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+    if (/^(https?:\\/\\/)?(wa\\.me|api\\.whatsapp\\.com)\\//i.test(href)) {
+      send('whatsapp_click', {link_url: link.href, link_text: (link.innerText || link.getAttribute('aria-label') || '').trim()});
+    } else if (/^mailto:/i.test(href)) {
+      send('email_click', {link_url: href, link_text: (link.innerText || '').trim()});
+    } else if (/^tel:/i.test(href)) {
+      send('phone_click', {link_url: href, link_text: (link.innerText || '').trim()});
+    }
+  }, true);
+  document.addEventListener('submit', event => {
+    if (event.target && event.target.id === 'contact-form') {
+      send('contact_form_whatsapp_open', {
+        form_id: 'contact-form',
+        project_type: (event.target.querySelector('[name="project"]')?.value || '').trim()
+      });
+    }
+  }, true);
+})();
 (()=>{const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('#main-nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false')}));nav.querySelectorAll('details').forEach(d=>d.addEventListener('toggle',()=>{if(d.open&&d.classList.contains('nav-dropdown'))nav.querySelectorAll('.nav-dropdown').forEach(other=>{if(other!==d)other.open=false})}));}const year=document.querySelector('#year');if(year)year.textContent=String(new Date().getFullYear());const form=document.querySelector('#contact-form');if(form){const projectSelect=form.querySelector('[name="project"]');const projectFromUrl=new URLSearchParams(window.location.search).get('proyecto');const projectOptions={'food-truck':'Food truck, trailer o camper','comercio-rodante':'Local comercial u oficina','unidad-movil':'Clínica, laboratorio o unidad móvil'};if(projectSelect&&projectOptions[projectFromUrl])projectSelect.value=projectOptions[projectFromUrl];const phoneInput=form.querySelector('#phone');let phonePicker=null;if(phoneInput&&window.intlTelInput){phonePicker=window.intlTelInput(phoneInput,{initialCountry:'ni',separateDialCode:false,nationalMode:false,allowDropdown:true,autoPlaceholder:'polite',formatOnDisplay:true,loadUtils:()=>import('https://cdn.jsdelivr.net/npm/intl-tel-input@25.12.2/build/js/utils.js')});phoneInput.addEventListener('blur',()=>{const raw=phoneInput.value.trim();if(raw.startsWith('00'))phoneInput.value='+'+raw.slice(2);});}form.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(form);let phone=(data.get('phone')||'').toString().trim();if(phone.startsWith('00'))phone='+'+phone.slice(2);if(phonePicker){const selected=phonePicker.getNumber();if(selected)phone=selected;}const message=['Consulta desde el sitio web FlexiBuild Centroamérica','Nombre: '+data.get('name'),'Correo: '+data.get('email'),'Teléfono / WhatsApp del interesado: '+(phone||'No indicado'),'Tipo de proyecto: '+data.get('project'),'Detalles: '+data.get('message')].join('\n');window.open('https://wa.me/50581560033?text='+encodeURIComponent(message),'_blank','noopener,noreferrer');});}
 const socialItems=[
 {label:'Facebook',url:'https://www.facebook.com/people/FlexiBuild-Centroam%C3%A9rica/61583447635132/',svg:'<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#1877F2" d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.09 4.39 23.08 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.03 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.96h-1.51c-1.49 0-1.95.93-1.95 1.88v2.28h3.32l-.53 3.49h-2.79V24C19.61 23.08 24 18.09 24 12.07Z"/></svg>'},
