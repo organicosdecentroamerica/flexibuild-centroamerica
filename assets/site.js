@@ -23,11 +23,13 @@
     const link = event.target.closest('a[href]');
     if (!link) return;
     const href = link.getAttribute('href') || '';
-    if (/^(https?:\\/\\/)?(wa\\.me|api\\.whatsapp\\.com)\\//i.test(href)) {
+    let parsedUrl;
+    try { parsedUrl = new URL(href, window.location.href); } catch (_) { return; }
+    if (parsedUrl.hostname === 'wa.me' || parsedUrl.hostname === 'api.whatsapp.com' || parsedUrl.hostname.endsWith('.whatsapp.com')) {
       send('whatsapp_click', {link_url: link.href, link_text: (link.innerText || link.getAttribute('aria-label') || '').trim()});
-    } else if (/^mailto:/i.test(href)) {
+    } else if (parsedUrl.protocol === 'mailto:') {
       send('email_click', {link_url: href, link_text: (link.innerText || '').trim()});
-    } else if (/^tel:/i.test(href)) {
+    } else if (parsedUrl.protocol === 'tel:') {
       send('phone_click', {link_url: href, link_text: (link.innerText || '').trim()});
     }
   }, true);
