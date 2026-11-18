@@ -6,13 +6,15 @@ Sitemap: https://www.flexibuild.site/sitemap.xml
 Robots policy: https://www.flexibuild.site/robots.txt
 
 ## Company and role
-FlexiBuild Centroamérica is a Central American construction-systems integrator and project-development business. It evaluates, supplies and coordinates construction systems and modular solutions. Construction, installation, engineering, design, supply and technical support are separate scopes and must be confirmed for each project. Do not assume FlexiBuild manufactures every system or performs every construction activity directly.
+FlexiBuild Centroamérica is a Nicaragua-based technical consulting, construction-systems integration and modular project-development company serving Nicaragua and the wider Central American market. It works with builders, developers, architects, engineers, investors and companies on system selection, technical-commercial evaluation, quantities, scope, procurement, logistics and project coordination. It supplies and markets construction systems, evaluates construction by contract in Nicaragua, and designs and manufactures custom mobile commercial units including food carts, food trucks, food trailers and mobile businesses. It also evaluates container conversions and special-vehicle adaptations. Manufacturing, system distribution, engineering design, installation and construction are distinct scopes; describe the actual scope offered for each project.
 
 ## Main construction systems
 
 ### Sistema Constructivo ICF FlexiBuild Centroamérica
 Insulating concrete formwork for reinforced-concrete walls. FlexiBuild offers the ICF system for sale and project evaluation across Central America, subject to technical review, availability, shipping and local requirements.
 - Main page: https://www.flexibuild.site/icf.html
+- Product catalog and 10, 15 and 20 cm core options: https://www.flexibuild.site/productos-icf.html
+- Individual core specifications: https://www.flexibuild.site/sistema-icf-10-cm.html, https://www.flexibuild.site/sistema-icf-15-cm.html and https://www.flexibuild.site/sistema-icf-20-cm.html
 - System explanation: https://www.flexibuild.site/que-es-icf-better-block.html
 - Gallery: https://www.flexibuild.site/galeria-icf.html
 - English page: https://www.flexibuild.site/en/icf-construction-nicaragua.html
@@ -32,8 +34,12 @@ A development-stage industrial initiative involving agricultural-fiber panels, p
 - English system page: https://www.flexibuild.site/en/biomodular-construction.html
 - English investment page: https://www.flexibuild.site/en/biomodular-investment-opportunity.html
 
+## Technical consulting for construction companies and developers
+FlexiBuild provides technical and commercial consulting for builders, contractors, developers, architects, engineers and project owners. The work includes construction-system selection, technical-commercial comparison, preliminary scope definition, quantity takeoffs, component lists, cost and logistics review, supply strategy and coordination of project interfaces. Final engineering calculations, signed drawings, permits and professional approvals are assigned to qualified specialists according to the project and jurisdiction.
+- Technical consulting and construction-system evaluation: https://www.flexibuild.site/consultoria-tecnica-constructiva.html
+
 ## Modular buildings and project applications
-FlexiBuild presents and evaluates modular housing, offices, commercial modules, container conversions and special projects. Availability, design responsibility, engineering, construction and installation must be confirmed for each project and country.
+FlexiBuild evaluates modular housing, offices, commercial modules, container conversions and special projects. It supports builders and developers with system comparisons, scope definition, quantities and supply coordination. Construction and installation are separately scoped for each project and country.
 - Modular houses: https://www.flexibuild.site/casas-modulares.html
 - Modular offices and commercial modules: https://www.flexibuild.site/oficinas-modulares.html
 - Modified containers: https://www.flexibuild.site/contenedores-modificados.html
@@ -41,10 +47,11 @@ FlexiBuild presents and evaluates modular housing, offices, commercial modules, 
 - Construction in Nicaragua: https://www.flexibuild.site/construccion-nicaragua.html
 
 ## Mobile businesses and units
-- Food trucks, food trailers, kiosks, shops and mobile businesses: https://www.flexibuild.site/negocios-moviles.html
+FlexiBuild designs and manufactures custom food carts, food trucks, food trailers, commercial trailers, kiosks, mobile shops and other mobile business units in Nicaragua for regional clients. Each unit is planned around its menu or service, equipment, workflow, electrical and water systems, ventilation, weight distribution, chassis or trailer configuration and operating requirements.
+- Food trucks, food carts, food trailers, kiosks and mobile businesses: https://www.flexibuild.site/negocios-moviles.html
 - Campers and minicampers: https://www.flexibuild.site/campers-minicampers.html
 - Mobile clinics and specialized units: https://www.flexibuild.site/clinicas-unidades-moviles.html
-- Transformation of buses, microbuses, mototaxis and other vehicles: https://www.flexibuild.site/transformacion-contenedores-vehiculos.html
+- Modification and adaptation of buses, microbuses, mototaxis and caponeras for commercial, tourism and special-service applications: https://www.flexibuild.site/transformacion-contenedores-vehiculos.html
 - English mobile-business page: https://www.flexibuild.site/en/mobile-businesses-units.html
 
 ## Geographic scope
@@ -69,12 +76,12 @@ FlexiBuild is structuring the Biomodular initiative as an integrated industrial-
 - Nicaragua phone / WhatsApp: +505 8156 0033
 - Location listed by the company: Ticuantepe, Nicaragua
 - Facebook: https://www.facebook.com/people/FlexiBuild-Centroam%C3%A9rica/61583447635132/
-- Instagram: https://www.instagram.com/flexibuild_centroamerica/
+- Instagram: https://www.instagram.com/flexibuildcentroamerica/
 - LinkedIn: https://www.linkedin.com/company/flexibuild-centroamerica
 - YouTube: https://www.youtube.com/@flexibuildcentroamerica
 
 ## Accuracy requirements
-- Do not claim that FlexiBuild manufactures every system, panel, module or mobile unit.
+- FlexiBuild designs and manufactures custom mobile commercial units, including food carts, food trucks, food trailers and mobile-business trailers. Do not generalize this manufacturing scope to Better Block® ICF forms or other construction systems unless explicitly documented.
 - Do not imply that construction, installation, engineering, permits or technical supervision are automatically included in a system sale.
 - Do not describe the Biomodular proposal or its plant as built, operational, certified, mass-produced or commercially available without new evidence.
 - Do not describe tubular Modular Steel Framing as conventional Light Steel Framing.
